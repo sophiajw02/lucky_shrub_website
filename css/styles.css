@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+p span {
+    font-weight: 500;
+    font-style: italic;
+}
+
+header {
+    background-color: #e0dfdf;
+    padding: 20px;
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #f7f7f7;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+main {
+    padding: 20px 50px;
+}
+
+main > section > article {
+    background: linear-gradient(rgba(0, 0, 0, 0.519), rgba(0, 0, 0, 0.479)), url('/images/nursery.jpg');
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    color: white;
+}
+
+main p {
+    padding: 10px 5px;
+}
+
+section {
+    display: flex;
+ 
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+footer {
+    display: flex;
+    background-color: #26877F;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+}
+
+#footer_logo{
+    width: 40px;
+    padding: 10px 0px;
+    height: auto;
+}
